@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="829dc051-7779-4009-a2fc-7f9990544a45" name="pyvip@192.168.75.128:22 (1)" url="http:///">
+        <fileTransfer host="192.168.75.128" port="22" rootFolder="/home/pyvip/code/tornado1" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="481e6c10-d55c-4c2e-a5f4-9aa0d5bb87af" name="tornado1" url="http:///">
+        <fileTransfer host="192.168.75.128" port="22" rootFolder="/home/pyvip/code/tornado1" accessType="SFTP">
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

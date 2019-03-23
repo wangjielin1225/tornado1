@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %} index page {% end %}
+
+{% block content %}
+    <form action="/uploads" enctype="multipart/form-data" method="post"> #依次是接收文件（即提交接口），form表单要提交的标准操作，方法*/
+        <input type="file" name="newimg">
+        <input type="submit" value="提交">
+    </form>
+{% end %}
